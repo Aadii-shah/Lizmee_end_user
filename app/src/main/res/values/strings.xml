@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Lizmee_end_user</string>
+
+    <string-array name="Category">
+
+        <item>Fashion</item>
+        <item>Mobiles</item>
+        <item>Electronics</item>
+        <item>Home</item>
+        <item>Grocery</item>
+        <item>Beauty</item>
+        <item>Furniture</item>
+        <item>Books</item>
+        <item>Automobiles</item>
+
+
+    </string-array>
+</resources>

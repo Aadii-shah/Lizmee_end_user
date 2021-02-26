@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:id="@+id/category"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_electronicDevice"
+            android:icon="@drawable/ic_electronic_devices"
+            android:title="Electronic Device" />
+        <item
+            android:id="@+id/nav_homeAppliances"
+            android:icon="@drawable/ic_home_appliances"
+            android:title="Home Appliances" />
+        <item
+            android:id="@+id/nav_healthBeauty"
+            android:icon="@drawable/ic_health_and_beauty"
+            android:title="Health &amp; Beauty" />
+
+        <item
+            android:id="@+id/groceriesPets"
+            android:icon="@drawable/ic_groceries_and_pets"
+            android:title="Groceries &amp; Pets" />
+
+        <item
+            android:id="@+id/menFashion"
+            android:icon="@drawable/ic_men_fashion"
+            android:title="Men Fashion" />
+
+        <item
+            android:id="@+id/womenFashion"
+            android:icon="@drawable/ic_women_fashion"
+            android:title="Women Fashion" />
+
+
+    </group>
+
+
+    <group
+        android:id="@+id/help"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_helpCenter"
+            android:title="Help Center" />
+        <item
+            android:id="@+id/nav_legal"
+            android:title="Legal" />
+        <item
+            android:id="@+id/nav_shareApp"
+            android:title="Share App" />
+
+
+    </group>
+
+
+    <group
+        android:id="@+id/logOut"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_logOut"
+            android:icon="@drawable/ic_log_out"
+            android:title="Log Out" />
+
+
+    </group>
+
+
+</menu>
